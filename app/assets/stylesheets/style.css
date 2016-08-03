@@ -1,9 +1,34 @@
 
 
 body {
-  background: green;
+  background: #004d00;
 }
 
 body {
   color: #FFFFFF;
+
+}
+
+body a:link {
+  color: #ccffcc;
+}
+
+body a:visited {
+  color: #b3ffb3;
+}
+
+.btn-default { 
+  border-color: #004D00;
+  background-color: #FFFFFF;
+}
+
+.btn-default:hover { 
+  border-color: #000000;
+  background-color: #ff6600;
+  color: #FFFFFF; 
+}
+
+
+body {
+  color: #000000;
 }

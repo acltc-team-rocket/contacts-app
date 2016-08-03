@@ -1,5 +1,6 @@
-<ul>
-  <li><%= @@contact.first_name %></li>
-  <li><%= @@contact.phone_number %></li>
-</ul>
-
+<h1><%= @contact.full_name %></h1>
+<h2>Email: <%= @contact.email %></h2>
+<h2>Phone: <%= @contact.phone_number_plus_jp_prefix %></h2>
+<h2>Created At: <%= @contact.friendly_time %></h2>
+<%= link_to "Edit", "/contacts/#{@contact.id}/edit" %>
+<%= link_to "Delete", "/contacts/#{@contact.id}", method: :delete %>
